@@ -6,9 +6,27 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>175</width>
-    <height>290</height>
+    <width>219</width>
+    <height>292</height>
    </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+    <horstretch>175</horstretch>
+    <verstretch>31</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>219</width>
+    <height>292</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>219</width>
+    <height>292</height>
+   </size>
   </property>
   <property name="windowTitle">
    <string>MainWindow</string>
@@ -19,8 +37,8 @@
      <rect>
       <x>0</x>
       <y>0</y>
-      <width>175</width>
-      <height>69</height>
+      <width>219</width>
+      <height>70</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -40,7 +58,7 @@ background-color : white</string>
     <property name="geometry">
      <rect>
       <x>-1</x>
-      <y>70</y>
+      <y>72</y>
       <width>45</width>
       <height>45</height>
      </rect>
@@ -63,7 +81,7 @@ QPushButton:pressed {
     <property name="geometry">
      <rect>
       <x>43</x>
-      <y>70</y>
+      <y>72</y>
       <width>45</width>
       <height>45</height>
      </rect>
@@ -86,7 +104,7 @@ QPushButton:pressed {
     <property name="geometry">
      <rect>
       <x>87</x>
-      <y>70</y>
+      <y>72</y>
       <width>45</width>
       <height>45</height>
      </rect>
@@ -111,7 +129,7 @@ QPushButton:pressed {
     <property name="geometry">
      <rect>
       <x>131</x>
-      <y>70</y>
+      <y>116</y>
       <width>45</width>
       <height>45</height>
      </rect>
@@ -129,14 +147,14 @@ QPushButton:pressed {
 }</string>
     </property>
     <property name="text">
-     <string>/</string>
+     <string>÷</string>
     </property>
    </widget>
    <widget class="QPushButton" name="pushButton_7">
     <property name="geometry">
      <rect>
       <x>-1</x>
-      <y>114</y>
+      <y>116</y>
       <width>45</width>
       <height>45</height>
      </rect>
@@ -159,7 +177,7 @@ QPushButton:pressed {
     <property name="geometry">
      <rect>
       <x>43</x>
-      <y>114</y>
+      <y>116</y>
       <width>45</width>
       <height>45</height>
      </rect>
@@ -182,7 +200,7 @@ QPushButton:pressed {
     <property name="geometry">
      <rect>
       <x>131</x>
-      <y>114</y>
+      <y>160</y>
       <width>45</width>
       <height>45</height>
      </rect>
@@ -207,7 +225,7 @@ QPushButton:pressed {
     <property name="geometry">
      <rect>
       <x>87</x>
-      <y>114</y>
+      <y>116</y>
       <width>45</width>
       <height>45</height>
      </rect>
@@ -230,7 +248,7 @@ QPushButton:pressed {
     <property name="geometry">
      <rect>
       <x>-1</x>
-      <y>158</y>
+      <y>160</y>
       <width>45</width>
       <height>45</height>
      </rect>
@@ -253,7 +271,7 @@ QPushButton:pressed {
     <property name="geometry">
      <rect>
       <x>43</x>
-      <y>158</y>
+      <y>160</y>
       <width>45</width>
       <height>45</height>
      </rect>
@@ -276,7 +294,7 @@ QPushButton:pressed {
     <property name="geometry">
      <rect>
       <x>131</x>
-      <y>158</y>
+      <y>204</y>
       <width>45</width>
       <height>45</height>
      </rect>
@@ -301,7 +319,7 @@ QPushButton:pressed {
     <property name="geometry">
      <rect>
       <x>87</x>
-      <y>158</y>
+      <y>160</y>
       <width>45</width>
       <height>45</height>
      </rect>
@@ -324,7 +342,7 @@ QPushButton:pressed {
     <property name="geometry">
      <rect>
       <x>-1</x>
-      <y>202</y>
+      <y>204</y>
       <width>45</width>
       <height>45</height>
      </rect>
@@ -347,7 +365,7 @@ QPushButton:pressed {
     <property name="geometry">
      <rect>
       <x>43</x>
-      <y>202</y>
+      <y>204</y>
       <width>45</width>
       <height>45</height>
      </rect>
@@ -370,7 +388,7 @@ QPushButton:pressed {
     <property name="geometry">
      <rect>
       <x>131</x>
-      <y>202</y>
+      <y>248</y>
       <width>45</width>
       <height>45</height>
      </rect>
@@ -395,7 +413,7 @@ QPushButton:pressed {
     <property name="geometry">
      <rect>
       <x>87</x>
-      <y>202</y>
+      <y>204</y>
       <width>45</width>
       <height>45</height>
      </rect>
@@ -418,7 +436,7 @@ QPushButton:pressed {
     <property name="geometry">
      <rect>
       <x>43</x>
-      <y>246</y>
+      <y>248</y>
       <width>45</width>
       <height>45</height>
      </rect>
@@ -440,22 +458,20 @@ QPushButton:pressed {
    <widget class="QPushButton" name="pushButton_result">
     <property name="geometry">
      <rect>
-      <x>131</x>
-      <y>246</y>
+      <x>175</x>
+      <y>248</y>
       <width>45</width>
       <height>45</height>
      </rect>
     </property>
     <property name="styleSheet">
      <string notr="true">QPushButton {
-  background-color: rgb(255, 151, 57);
-  color: white; 
+  background-color: rgb(162, 162, 162);
   border: 1px solid gray;
 }
-
 QPushButton:pressed {
     background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
-                                      stop: 0 #FF7832, stop: 1 #FF9739);
+                                      stop: 0 #303030, stop: 1 #D7D7D7);
 }</string>
     </property>
     <property name="text">
@@ -466,7 +482,7 @@ QPushButton:pressed {
     <property name="geometry">
      <rect>
       <x>87</x>
-      <y>246</y>
+      <y>248</y>
       <width>45</width>
       <height>45</height>
      </rect>
@@ -489,7 +505,7 @@ QPushButton:pressed {
     <property name="geometry">
      <rect>
       <x>-1</x>
-      <y>246</y>
+      <y>248</y>
       <width>45</width>
       <height>45</height>
      </rect>
@@ -507,7 +523,138 @@ QPushButton:pressed {
 }</string>
     </property>
     <property name="text">
-     <string>+/-</string>
+     <string>±</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_log">
+    <property name="geometry">
+     <rect>
+      <x>175</x>
+      <y>204</y>
+      <width>45</width>
+      <height>45</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string>QPushButton {
+  background-color: rgb(255, 151, 57);
+  color: white; 
+  border: 1px solid gray;
+}
+
+QPushButton:pressed {
+    background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                      stop: 0 #FF7832, stop: 1 #FF9739);
+}</string>
+    </property>
+    <property name="text">
+     <string>log</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_root">
+    <property name="geometry">
+     <rect>
+      <x>131</x>
+      <y>72</y>
+      <width>45</width>
+      <height>45</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string>QPushButton {
+  background-color: rgb(255, 151, 57);
+  color: white; 
+  border: 1px solid gray;
+}
+
+QPushButton:pressed {
+    background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                      stop: 0 #FF7832, stop: 1 #FF9739);
+}</string>
+    </property>
+    <property name="text">
+     <string>√</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_ln">
+    <property name="geometry">
+     <rect>
+      <x>175</x>
+      <y>116</y>
+      <width>45</width>
+      <height>45</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string>QPushButton {
+  background-color: rgb(255, 151, 57);
+  color: white; 
+  border: 1px solid gray;
+}
+
+QPushButton:pressed {
+    background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                      stop: 0 #FF7832, stop: 1 #FF9739);
+}</string>
+    </property>
+    <property name="text">
+     <string>Ln</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_root_n">
+    <property name="geometry">
+     <rect>
+      <x>175</x>
+      <y>72</y>
+      <width>45</width>
+      <height>45</height>
+     </rect>
+    </property>
+    <property name="toolTip">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; vertical-align:super;&quot;&gt;x&lt;/span&gt;√&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="styleSheet">
+     <string>QPushButton {
+  background-color: rgb(255, 151, 57);
+  color: white; 
+  border: 1px solid gray;
+}
+
+QPushButton:pressed {
+    background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                      stop: 0 #FF7832, stop: 1 #FF9739);
+}</string>
+    </property>
+    <property name="text">
+     <string>n√</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_log_n">
+    <property name="geometry">
+     <rect>
+      <x>175</x>
+      <y>160</y>
+      <width>45</width>
+      <height>45</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string>QPushButton {
+  background-color: rgb(255, 151, 57);
+  color: white; 
+  border: 1px solid gray;
+}
+
+QPushButton:pressed {
+    background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                      stop: 0 #FF7832, stop: 1 #FF9739);
+}</string>
+    </property>
+    <property name="text">
+     <string>logn(x)</string>
+    </property>
+    <property name="flat">
+     <bool>false</bool>
     </property>
    </widget>
   </widget>

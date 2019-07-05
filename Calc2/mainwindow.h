@@ -16,7 +16,9 @@ public:
     ~MainWindow(); 
 private:
     Ui::MainWindow *ui;
-    void keyPressEvents(QKeyEvent *event);
+
+protected:
+    bool eventFilter(QObject *watched, QEvent *event);
 
 private slots:
     void digits_numbers();
@@ -26,6 +28,7 @@ private slots:
     void on_pushButton_clear_last_clicked();
     void on_pushButton_result_clicked();
     void math_operations();
+    void on_pushButton_root_clicked();
 };
 
 #endif // MAINWINDOW_H
